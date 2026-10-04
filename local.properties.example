@@ -1,0 +1,7 @@
+# Copy this file to local.properties (it is git-ignored) and fill in the values.
+# sdk.dir is written automatically by Android Studio.
+sdk.dir=/path/to/Android/Sdk
+
+# Google Safe Browsing API key (optional). Without it, PhoneGuard still runs
+# its on-device red-flag checks on links.
+SAFE_BROWSING_API_KEY=your-api-key-here

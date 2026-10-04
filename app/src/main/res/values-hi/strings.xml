@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hindi translations of values/strings.xml. -->
+<resources>
+    <string name="nav_home">होम</string>
+    <string name="nav_scan">स्कैन</string>
+    <string name="nav_tools">टूल्स</string>
+    <string name="nav_history">इतिहास</string>
+    <string name="nav_tips">सलाह</string>
+    <string name="action_allow">अनुमति दें</string>
+    <string name="action_allow_camera">कैमरा की अनुमति दें</string>
+    <string name="action_allow_location">Wi-Fi जांचने के लिए लोकेशन की अनुमति दें</string>
+    <string name="action_back">वापस जाएं</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_check">अभी जांचें</string>
+    <string name="action_check_again">फिर से जांचें</string>
+    <string name="action_continue">आगे बढ़ें</string>
+    <string name="action_delete">मिटाएं</string>
+    <string name="action_details">विवरण</string>
+    <string name="action_get_started">शुरू करें</string>
+    <string name="action_next">आगे</string>
+    <string name="action_not_now">अभी नहीं</string>
+    <string name="action_open_settings">सेटिंग्स खोलें</string>
+    <string name="action_paste">पेस्ट करें</string>
+    <string name="action_remove_admin">एडमिन अधिकार हटाएं</string>
+    <string name="action_review_permissions">अनुमतियां देखें</string>
+    <string name="action_scan_again">फिर से स्कैन करें</string>
+    <string name="action_scan_qr">QR स्कैन करें</string>
+    <string name="action_skip">छोड़ें</string>
+    <string name="action_turn_off_accessibility">एक्सेस बंद करें</string>
+    <string name="action_uninstall">अनइंस्टॉल करें</string>
+    <string name="action_wifi_settings">Wi-Fi सेटिंग्स</string>
+    <string name="cd_back">वापस</string>
+    <string name="cd_clear">टेक्स्ट मिटाएं</string>
+    <string name="cd_collapse">कम दिखाएं</string>
+    <string name="cd_expand">और दिखाएं</string>
+    <string name="state_expanded">खुला हुआ</string>
+    <string name="state_collapsed">बंद</string>
+    <string name="risk_safe">सुरक्षित</string>
+    <string name="risk_low">कम खतरा</string>
+    <string name="risk_medium">मध्यम खतरा</string>
+    <string name="risk_high">ज़्यादा खतरा</string>
+    <string name="group_high">इन्हें अभी ठीक करें</string>
+    <string name="group_medium">इन्हें जांच लें</string>
+    <string name="group_low">छोटी बातें</string>
+    <string name="group_safe">सब ठीक है</string>
+    <string name="grade_good">अच्छा</string>
+    <string name="grade_fair">ठीक-ठाक</string>
+    <string name="grade_at_risk">खतरे में</string>
+    <string name="gauge_description">सुरक्षा स्कोर 100 में से %1$d। %2$s।</string>
+    <string name="gauge_no_score_description">अभी कोई सुरक्षा स्कोर नहीं है। फ़ोन जांचने के लिए अभी स्कैन करें दबाएं।</string>
+    <string name="gauge_not_scanned">अभी स्कैन नहीं हुआ</string>
+    <string name="gauge_out_of_100">100 में से</string>
+    <string name="scan_now">अभी स्कैन करें</string>
+    <string name="scanning">स्कैन हो रहा है…</string>
+    <string name="scan_title">स्कैन</string>
+    <string name="scan_failed">स्कैन पूरा नहीं हो सका। कृपया फिर से कोशिश करें।</string>
+    <string name="scan_idle_title">चलिए आपका फ़ोन जांचते हैं</string>
+    <string name="scan_idle_body">हम आपके ऐप्स, सेटिंग्स और Wi-Fi देखेंगे। इसमें कुछ ही सेकंड लगते हैं और सब कुछ आपके फ़ोन पर ही रहता है।</string>
+    <string name="stage_apps">ऐप्स जांच रहे हैं…</string>
+    <string name="stage_apps_count">ऐप्स जांच रहे हैं… %1$d/%2$d</string>
+    <string name="stage_device">फ़ोन की सेटिंग्स जांच रहे हैं…</string>
+    <string name="stage_network">Wi-Fi जांच रहे हैं…</string>
+    <string name="stage_scoring">आपका स्कोर निकाल रहे हैं…</string>
+    <string name="results_summary">%1$d ऐप्स जांचे · %2$d खतरनाक ऐप्स · %3$d सेटिंग्स ठीक करनी हैं</string>
+    <string name="results_show_safe">%1$d सुरक्षित चीज़ें दिखाएं</string>
+    <string name="results_hide_safe">सुरक्षित चीज़ें छिपाएं</string>
+    <string name="results_nothing_here">यहां कुछ नहीं है। कोई और फ़िल्टर चुनें।</string>
+    <string name="filter_all">सभी</string>
+    <string name="filter_with_count">%1$s (%2$d)</string>
+    <string name="home_tagline">एक टैप में आपके फ़ोन की सुरक्षा</string>
+    <string name="home_status_first_scan">फ़ोन जांचने के लिए अभी स्कैन करें दबाएं</string>
+    <string name="home_status_all_good">बहुत बढ़िया! कोई समस्या नहीं मिली।</string>
+    <string name="home_status_problems">%1$d चीज़ों पर ध्यान देना है</string>
+    <string name="home_last_scan">आख़िरी स्कैन: %1$s</string>
+    <string name="home_watch_live">स्कैन देखें</string>
+    <string name="home_see_results">नतीजे देखें</string>
+    <string name="home_breakdown_title">आपकी सुरक्षा एक नज़र में</string>
+    <string name="home_apps_value">%1$d खतरनाक</string>
+    <string name="home_apps_caption">%1$d जांचे गए ऐप्स में से</string>
+    <string name="home_not_checked">अभी जांच नहीं हुई</string>
+    <string name="home_device_ok">सब ठीक</string>
+    <string name="home_device_issues">%1$d ठीक करने हैं</string>
+    <string name="home_device_caption">लॉक, अपडेट और सेटिंग्स</string>
+    <string name="home_score_value">स्कोर %1$d</string>
+    <string name="home_network_mobile">Wi-Fi पर नहीं</string>
+    <string name="home_network_unsafe">असुरक्षित Wi-Fi</string>
+    <string name="home_network_secure">सुरक्षित</string>
+    <string name="home_network_unknown">पता नहीं</string>
+    <string name="home_network_caption">अपना Wi-Fi जांचने के लिए टैप करें</string>
+    <string name="home_links_value">%1$d जांचे</string>
+    <string name="home_links_caption_bad">इस हफ़्ते %1$d खतरनाक</string>
+    <string name="home_links_caption_ok">टैप करने से पहले लिंक जांचें</string>
+    <string name="home_tip_title">आज की सुरक्षा सलाह</string>
+    <string name="category_apps">ऐप्स</string>
+    <string name="category_device">फ़ोन</string>
+    <string name="category_network">नेटवर्क</string>
+    <string name="category_links">लिंक</string>
+    <string name="reason_remote_control">धोखाधड़ी की चेतावनी: इस ऐप से कोई दूसरा व्यक्ति आपकी स्क्रीन देख और चला सकता है। ठग लोगों से यही ऐप डलवाते हैं।</string>
+    <string name="reason_sideloaded_sensitive">ऐप स्टोर के बाहर से डाला गया है और SMS या स्क्रीन जैसी निजी चीज़ें पढ़ सकता है। नकली बैंक ऐप इसी तरह OTP चुराते हैं।</string>
+    <string name="reason_sideloaded">Play Store के बाहर से डाला गया है (जैसे WhatsApp या किसी वेबसाइट से मिली APK फ़ाइल)।</string>
+    <string name="reason_accessibility">आपकी स्क्रीन पर सब कुछ देख और दबा सकता है (Accessibility)।</string>
+    <string name="reason_device_admin">इसके पास डिवाइस एडमिन अधिकार हैं, जिससे इसे हटाना मुश्किल हो सकता है।</string>
+    <string name="reason_sms">आपके SMS पढ़ सकता है, बैंक OTP भी।</string>
+    <string name="reason_call_log">देख सकता है कि आप किसे कॉल करते हैं और कौन आपको कॉल करता है।</string>
+    <string name="reason_notifications">आपकी सभी सूचनाएं पढ़ सकता है, OTP भी।</string>
+    <string name="reason_overlay">दूसरे ऐप्स के ऊपर दिख सकता है (नकली लॉगिन स्क्रीन दिखाने में इस्तेमाल होता है)।</string>
+    <string name="reason_install_apps">दूसरे ऐप्स इंस्टॉल कर सकता है।</string>
+    <string name="reason_microphone">आपका माइक्रोफ़ोन इस्तेमाल कर सकता है।</string>
+    <string name="reason_camera">आपका कैमरा इस्तेमाल कर सकता है।</string>
+    <string name="reason_location">आपकी लोकेशन देख सकता है।</string>
+    <string name="app_no_risky_permissions">कोई संवेदनशील अनुमति नहीं मिली।</string>
+    <string name="advice_no_action">यह ऐप ठीक लगता है। कुछ करने की ज़रूरत नहीं।</string>
+    <string name="advice_review_permissions">अगर ऐप को काम करने के लिए इन अनुमतियों की ज़रूरत नहीं है, तो इन्हें सेटिंग्स में बंद कर दें।</string>
+    <string name="advice_turn_off_accessibility">इस ऐप का Accessibility बंद कर दें, जब तक आपने इसे किसी साफ़ वजह से ख़ुद चालू न किया हो।</string>
+    <string name="advice_remove_device_admin">इसके डिवाइस एडमिन अधिकार हटाएं, फिर अगर आप इसे इस्तेमाल नहीं करते तो अनइंस्टॉल कर दें।</string>
+    <string name="advice_uninstall_if_unknown">अगर आप इस ऐप को नहीं जानते या इसे डालना नहीं चाहते थे, तो अनइंस्टॉल कर दें।</string>
+    <string name="advice_uninstall_now">यह ऐप अभी अनइंस्टॉल करें। अगर किसी ने कॉल पर इसे डालने को कहा था, तो यह धोखाधड़ी है। उन्हें कोई कोड न बताएं।</string>
+    <string name="perm_sms">SMS</string>
+    <string name="perm_sms_desc">मैसेज पढ़ना और भेजना, OTP भी</string>
+    <string name="perm_call_log">कॉल हिस्ट्री</string>
+    <string name="perm_call_log_desc">आने और जाने वाली कॉल देखना</string>
+    <string name="perm_accessibility">Accessibility</string>
+    <string name="perm_accessibility_desc">आपकी स्क्रीन देखना और आपके लिए बटन दबाना</string>
+    <string name="perm_device_admin">डिवाइस एडमिन</string>
+    <string name="perm_device_admin_desc">फ़ोन लॉक या साफ़ करना और हटाने से रोकना</string>
+    <string name="perm_notification_access">सूचनाओं का एक्सेस</string>
+    <string name="perm_notification_access_desc">हर सूचना पढ़ना, OTP भी</string>
+    <string name="perm_overlay">दूसरे ऐप्स के ऊपर दिखना</string>
+    <string name="perm_overlay_desc">दूसरे ऐप्स के ऊपर विंडो दिखाना</string>
+    <string name="perm_install_packages">दूसरे ऐप्स इंस्टॉल करना</string>
+    <string name="perm_install_packages_desc">Play Store के बाहर से ऐप्स डालने के लिए पूछना</string>
+    <string name="perm_microphone">माइक्रोफ़ोन</string>
+    <string name="perm_microphone_desc">आवाज़ रिकॉर्ड करना</string>
+    <string name="perm_camera">कैमरा</string>
+    <string name="perm_camera_desc">फ़ोटो और वीडियो लेना</string>
+    <string name="perm_location">लोकेशन</string>
+    <string name="perm_location_desc">आप कहां हैं, यह जानना</string>
+    <string name="source_play_store">Google Play Store</string>
+    <string name="source_galaxy_store">Samsung Galaxy Store</string>
+    <string name="source_amazon">Amazon Appstore</string>
+    <string name="source_other_app">किसी दूसरे ऐप से (APK फ़ाइल)</string>
+    <string name="source_unknown">अज्ञात स्रोत</string>
+    <string name="app_detail_title">ऐप का विवरण</string>
+    <string name="app_detail_source">कहां से डाला गया: %1$s</string>
+    <string name="app_detail_version">वर्ज़न %1$s</string>
+    <string name="app_detail_installed_on">%1$s को डाला गया</string>
+    <string name="app_detail_found">हमें क्या मिला</string>
+    <string name="app_detail_what_to_do">क्या करें</string>
+    <string name="app_detail_permissions">संवेदनशील अनुमतियां</string>
+    <string name="app_detail_removed_title">ऐप हटा दिया गया</string>
+    <string name="app_detail_removed_body">यह ऐप अब आपके फ़ोन पर नहीं है। बहुत बढ़िया!</string>
+    <string name="scam_warning_title">धोखाधड़ी की चेतावनी</string>
+    <string name="scam_warning_body">बैंक कर्मचारी, पुलिस या कस्टमर केयर बनकर ठग लोगों से यह ऐप डलवाते हैं। फिर वे आपकी स्क्रीन देखकर OTP और पैसे चुरा लेते हैं। अगर किसी ने आपसे यह ऐप डलवाया है, तो इसे अभी हटाएं और 1930 पर कॉल करें।</string>
+    <string name="device_screen_lock">स्क्रीन लॉक</string>
+    <string name="device_screen_lock_ok">आपके फ़ोन पर स्क्रीन लॉक लगा है।</string>
+    <string name="device_screen_lock_issue">आपके फ़ोन पर कोई PIN, पैटर्न या पासवर्ड नहीं है।</string>
+    <string name="device_screen_lock_why">लॉक के बिना, जो भी आपका फ़ोन उठाए वह आपके UPI और बैंक ऐप खोल सकता है।</string>
+    <string name="device_developer_options">डेवलपर विकल्प</string>
+    <string name="device_developer_options_ok">डेवलपर विकल्प बंद हैं।</string>
+    <string name="device_developer_options_issue">डेवलपर विकल्प चालू हैं।</string>
+    <string name="device_developer_options_why">ये ऐप बनाने वालों के टूल हैं। ज़्यादातर लोगों को इनकी ज़रूरत नहीं होती, और ठग कभी-कभी इन्हें चालू करवाते हैं।</string>
+    <string name="device_usb_debugging">USB डीबगिंग</string>
+    <string name="device_usb_debugging_ok">USB डीबगिंग बंद है।</string>
+    <string name="device_usb_debugging_issue">USB डीबगिंग चालू है।</string>
+    <string name="device_usb_debugging_why">केबल से जुड़ा कंप्यूटर ऐप डाल सकता है या आपका डेटा कॉपी कर सकता है। इस्तेमाल न करते समय इसे बंद रखें।</string>
+    <string name="device_unknown_sources">अनजान ऐप्स डालना</string>
+    <string name="device_unknown_sources_ok">कोई भी ऐप दूसरे ऐप्स नहीं डाल सकता।</string>
+    <string name="device_unknown_sources_issue">कुछ ऐप्स को दूसरे ऐप्स डालने की अनुमति हो सकती है।</string>
+    <string name="device_unknown_sources_why">नकली ऐप अक्सर WhatsApp या SMS पर APK फ़ाइल बनकर आते हैं। यह अनुमति सिर्फ़ भरोसेमंद ऐप्स को दें और काम होने पर बंद कर दें।</string>
+    <string name="device_affected_apps">ऐप्स: %1$s</string>
+    <string name="device_security_patch">सुरक्षा अपडेट</string>
+    <string name="device_security_patch_ok">आपके फ़ोन में हाल का सुरक्षा अपडेट है।</string>
+    <string name="device_security_patch_issue">आपके फ़ोन का सुरक्षा अपडेट पुराना है।</string>
+    <string name="device_security_patch_why">अपडेट उन कमियों को ठीक करते हैं जिनका हैकर फ़ायदा उठाते हैं। फ़ोन जब अपडेट दिखाए, तब उसे इंस्टॉल करें।</string>
+    <string name="device_patch_age">आख़िरी अपडेट: %1$s (%2$d दिन पहले)</string>
+    <string name="device_play_protect">Google Play Protect</string>
+    <string name="device_play_protect_info">पक्का करें कि Play Protect चालू है।</string>
+    <string name="device_play_protect_why">Play Protect आपके ऐप्स में ख़तरनाक व्यवहार की जांच करता है। Android हमें यह नहीं दिखाता कि यह चालू है या नहीं, इसलिए एक बार ख़ुद देख लें।</string>
+    <string name="fix_set_screen_lock">स्क्रीन लॉक लगाएं</string>
+    <string name="fix_turn_off_developer">बंद करें</string>
+    <string name="fix_turn_off_usb">बंद करें</string>
+    <string name="fix_review_installers">ऐप्स देखें</string>
+    <string name="fix_check_updates">अपडेट देखें</string>
+    <string name="fix_open_play_protect">Play Protect खोलें</string>
+    <string name="wifi_title">Wi-Fi सुरक्षा</string>
+    <string name="wifi_named">Wi-Fi: %1$s</string>
+    <string name="wifi_this_network">आपका Wi-Fi नेटवर्क</string>
+    <string name="wifi_name_hidden">Android ने छिपाया है</string>
+    <string name="wifi_security_open">खुला (कोई पासवर्ड नहीं)</string>
+    <string name="wifi_security_wep">WEP (पुराना और कमज़ोर)</string>
+    <string name="wifi_security_wpa">WPA2 (पासवर्ड से सुरक्षित)</string>
+    <string name="wifi_security_wpa3">WPA3 (मज़बूत)</string>
+    <string name="wifi_security_enterprise">एंटरप्राइज़ (ऑफ़िस नेटवर्क)</string>
+    <string name="wifi_security_enhanced_open">एन्हांस्ड ओपन (एन्क्रिप्टेड)</string>
+    <string name="wifi_security_unknown">पता नहीं</string>
+    <string name="wifi_not_connected_title">आप Wi-Fi पर नहीं हैं</string>
+    <string name="wifi_not_connected_body">अच्छा है: बैंकिंग और UPI के लिए मोबाइल डेटा पब्लिक Wi-Fi से ज़्यादा सुरक्षित है।</string>
+    <string name="wifi_unsafe_title">यह Wi-Fi सुरक्षित नहीं है</string>
+    <string name="wifi_unsafe_body">इस नेटवर्क पर पासवर्ड नहीं है या पुरानी WEP सुरक्षा है। आस-पास के लोग देख सकते हैं कि आप क्या कर रहे हैं। इस पर बैंक या UPI ऐप्स न चलाएं।</string>
+    <string name="wifi_safe_title">यह Wi-Fi सुरक्षित है</string>
+    <string name="wifi_safe_body">इसमें %1$s सुरक्षा है। फिर भी, किसी और के Wi-Fi पर बैंकिंग न करें।</string>
+    <string name="wifi_unknown_title">हम इस नेटवर्क की सुरक्षा नहीं पढ़ सके</string>
+    <string name="wifi_unknown_body">अगर यह पब्लिक Wi-Fi है (स्टेशन, कैफ़े, होटल), तो इस पर बैंकिंग और UPI न करें।</string>
+    <string name="wifi_location_needed_title">इस Wi-Fi को जांचने के लिए एक अनुमति चाहिए</string>
+    <string name="wifi_location_title">लोकेशन क्यों?</string>
+    <string name="wifi_location_body">आपके Android वर्ज़न में, कोई ऐप तभी देख सकता है कि Wi-Fi पर पासवर्ड है या नहीं जब उसके पास लोकेशन की अनुमति हो। हम इसे सिर्फ़ इसी जांच के लिए इस्तेमाल करते हैं और कभी आपकी लोकेशन ट्रैक नहीं करते।</string>
+    <string name="wifi_detail_name">नेटवर्क का नाम</string>
+    <string name="wifi_detail_security">सुरक्षा</string>
+    <string name="wifi_detail_nearby_open">आस-पास के खुले नेटवर्क</string>
+    <string name="wifi_tips_title">पब्लिक Wi-Fi पर सुरक्षित रहें</string>
+    <string name="tools_title">टूल्स</string>
+    <string name="tool_link_title">लिंक जांचें</string>
+    <string name="tool_link_body">खोलने से पहले लिंक पेस्ट करें</string>
+    <string name="tool_qr_title">QR कोड स्कैन करें</string>
+    <string name="tool_qr_body">देखें कि QR कोड असल में कहां ले जाता है</string>
+    <string name="tool_message_title">SMS या मैसेज जांचें</string>
+    <string name="tool_message_body">धोखाधड़ी पहचानने के लिए मैसेज पेस्ट या शेयर करें</string>
+    <string name="tool_wifi_title">Wi-Fi सुरक्षा जांच</string>
+    <string name="tool_wifi_body">पता करें कि आपका Wi-Fi पेमेंट के लिए सुरक्षित है या नहीं</string>
+    <string name="privacy_note">स्कैन आपके फ़ोन पर ही होते हैं। सिर्फ़ वह लिंक Google Safe Browsing को भेजा जाता है जिसे आप जांचना चुनते हैं। आपके मैसेज कभी आपके फ़ोन से बाहर नहीं जाते।</string>
+    <string name="link_check_title">लिंक या मैसेज जांचें</string>
+    <string name="link_check_intro">किसी लिंक, QR कोड या SMS पर शक है? टैप करने से पहले यहां जांचें।</string>
+    <string name="link_check_hint">लिंक या मैसेज पेस्ट करें</string>
+    <string name="link_check_placeholder">जैसे https://example.com या पूरा SMS</string>
+    <string name="link_checking">जांच रहे हैं…</string>
+    <string name="link_check_failed">कुछ गड़बड़ हो गई। कृपया फिर से कोशिश करें।</string>
+    <string name="link_no_link_title">कोई लिंक नहीं मिला</string>
+    <string name="link_no_link_body">इस टेक्स्ट में हमें कोई लिंक या धोखाधड़ी के संकेत नहीं मिले। https:// से शुरू होने वाला पूरा लिंक पेस्ट करें।</string>
+    <string name="link_scam_signs">इस मैसेज में धोखाधड़ी के संकेत</string>
+    <string name="link_links_found">मिले हुए लिंक</string>
+    <string name="link_no_flags">इस लिंक में कोई चेतावनी संकेत नहीं मिला।</string>
+    <string name="verdict_safe_title">सुरक्षित लगता है</string>
+    <string name="verdict_safe_body">हमें कोई चेतावनी संकेत नहीं मिला। फिर भी, किसी भी वेबसाइट पर OTP या PIN न डालें।</string>
+    <string name="verdict_low_title">शायद ठीक है</string>
+    <string name="verdict_low_body">कुछ छोटी चिंताएं मिलीं। तभी खोलें जब आप भेजने वाले पर भरोसा करते हों।</string>
+    <string name="verdict_medium_title">सावधान रहें</string>
+    <string name="verdict_medium_body">इसमें चेतावनी के संकेत हैं। पासवर्ड, OTP या कार्ड की जानकारी न डालें।</string>
+    <string name="verdict_high_title">ख़तरनाक – न खोलें</string>
+    <string name="verdict_high_body">यह धोखाधड़ी लगती है। लिंक न खोलें, पैसे न दें, और मैसेज मिटा दें।</string>
+    <string name="flag_invalid">यह सही लिंक जैसा नहीं दिखता।</string>
+    <string name="flag_ip_address">वेबसाइट के नाम की जगह नंबर इस्तेमाल करता है। असली बैंक ऐसा कभी नहीं करते।</string>
+    <string name="flag_lookalike">बैंक या पेमेंट वेबसाइट जैसा दिखता है, पर असली नहीं है।</string>
+    <string name="flag_lookalike_brand">%1$s होने का दिखावा करता है, पर यह उनकी असली वेबसाइट नहीं है।</string>
+    <string name="flag_userinfo">असली वेबसाइट छिपाने के लिए एक चाल (@ चिह्न) इस्तेमाल करता है।</string>
+    <string name="flag_shortener">छोटा लिंक है जो छिपाता है कि वह असल में कहां ले जाता है।</string>
+    <string name="flag_not_https">सुरक्षित नहीं (https नहीं)। आप जो भी लिखेंगे, दूसरे देख सकते हैं।</string>
+    <string name="flag_punycode">असली वेबसाइट के नाम की नकल के लिए मिलते-जुलते अक्षर इस्तेमाल करता है।</string>
+    <string name="flag_upi">यह UPI पेमेंट का अनुरोध है। QR स्कैन करना सिर्फ़ पैसे देने के लिए होता है, पाने के लिए कभी नहीं।</string>
+    <string name="flag_upi_payee">UPI पेमेंट इन्हें: %1$s। QR स्कैन करना सिर्फ़ पैसे देने के लिए होता है, पाने के लिए कभी नहीं।</string>
+    <string name="flag_unsupported_scheme">यह सामान्य वेब लिंक नहीं है।</string>
+    <string name="flag_suspicious_tld">ऐसा सस्ता वेब पता है जो धोखाधड़ी वाली साइटें अक्सर इस्तेमाल करती हैं।</string>
+    <string name="flag_many_subdomains">इसका पता बहुत लंबा और उलझा हुआ है।</string>
+    <string name="flag_unusual_port">एक असामान्य तकनीकी सेटिंग (पोर्ट नंबर) इस्तेमाल करता है।</string>
+    <string name="flag_scam_keywords">इसमें ठगों वाले शब्द हैं, जैसे KYC, इनाम या वेरिफ़ाई।</string>
+    <string name="signal_fake_kyc">नकली KYC: बैंक कभी SMS लिंक से KYC अपडेट करने को नहीं कहते।</string>
+    <string name="signal_digital_arrest">“डिजिटल अरेस्ट” की धमकी: पुलिस, CBI या कस्टम्स कभी कॉल पर किसी को गिरफ़्तार नहीं करते।</string>
+    <string name="signal_upi_collect">UPI की चाल: पैसे पाने के लिए कभी UPI PIN डालने की ज़रूरत नहीं होती।</string>
+    <string name="signal_fake_delivery">नकली डिलीवरी मैसेज: अपना ऑर्डर सिर्फ़ असली ऐप में देखें।</string>
+    <string name="signal_prize">इनाम, रिफ़ंड या कैशबैक का ऐसा ऑफ़र जो सच होने के लिए बहुत अच्छा लगता है।</string>
+    <string name="signal_otp">OTP बताने को कहता है। कभी किसी को OTP न बताएं।</string>
+    <string name="signal_electricity">बिजली कटने की धमकी: बिल सिर्फ़ असली ऐप या वेबसाइट पर भरें।</string>
+    <string name="signal_remote_access">AnyDesk या TeamViewer जैसा स्क्रीन-शेयरिंग ऐप डालने को कहता है।</string>
+    <string name="signal_urgent">आपको डराने या जल्दबाज़ी कराने की कोशिश (“तुरंत”, “आज ही बंद”)।</string>
+    <string name="sb_no_threat">Google Safe Browsing: कोई ज्ञात ख़तरा नहीं।</string>
+    <string name="sb_threat">Google Safe Browsing: ख़तरनाक बताया गया है!</string>
+    <string name="sb_not_configured">Google Safe Browsing जांच सेट नहीं है। फ़ोन पर ही जांच की गई।</string>
+    <string name="sb_offline">इंटरनेट नहीं है, इसलिए Google Safe Browsing नहीं हुआ। फ़ोन पर ही जांच की गई।</string>
+    <string name="sb_error">Google Safe Browsing ने जवाब नहीं दिया। फ़ोन पर ही जांच की गई।</string>
+    <string name="sb_skipped">यह वेब लिंक नहीं है, इसलिए सिर्फ़ फ़ोन पर जांचा गया।</string>
+    <string name="qr_title">QR कोड स्कैन करें</string>
+    <string name="qr_instruction">कैमरे को QR कोड की तरफ़ रखें</string>
+    <string name="qr_permission_title">कैमरा चाहिए</string>
+    <string name="qr_permission_body">हम कैमरा सिर्फ़ QR कोड पढ़ने के लिए इस्तेमाल करते हैं। कोई फ़ोटो न सेव होती है, न कहीं भेजी जाती है।</string>
+    <string name="qr_permission_denied_body">कैमरा का एक्सेस बंद है। QR कोड स्कैन करने के लिए सेटिंग्स खोलें और कैमरा की अनुमति दें।</string>
+    <string name="qr_camera_error_title">कैमरा उपलब्ध नहीं है</string>
+    <string name="qr_camera_error_body">हम कैमरा शुरू नहीं कर सके। कैमरा वाले दूसरे ऐप्स बंद करके फिर से कोशिश करें।</string>
+    <string name="history_title">इतिहास</string>
+    <string name="history_empty_title">अभी कोई स्कैन नहीं</string>
+    <string name="history_empty_body">आपके स्कैन यहां दिखेंगे, ताकि आप समय के साथ अपना स्कोर बढ़ते देख सकें।</string>
+    <string name="history_trend_title">समय के साथ स्कोर</string>
+    <string name="history_trend_description">आपके पिछले %1$d स्कोर का चार्ट। ताज़ा स्कोर %2$d।</string>
+    <string name="history_stat_latest">ताज़ा</string>
+    <string name="history_stat_best">सबसे अच्छा</string>
+    <string name="history_stat_change">बदलाव</string>
+    <string name="history_past_scans">पिछले स्कैन</string>
+    <string name="history_row_details">%1$s · %2$s</string>
+    <string name="history_row_counts">%1$d खतरनाक ऐप्स · %2$d सेटिंग्स ठीक करनी हैं</string>
+    <string name="history_clear_title">इतिहास मिटाएं?</string>
+    <string name="history_clear_body">इससे इस फ़ोन के सभी सेव स्कैन हट जाएंगे। इसे वापस नहीं लाया जा सकता।</string>
+    <string name="trigger_manual">आपने स्कैन किया</string>
+    <string name="trigger_scheduled">रोज़ का स्कैन</string>
+    <string name="trigger_new_app">नया ऐप</string>
+    <string name="tips_title">सुरक्षा सलाह</string>
+    <string name="helpline_title">धोखाधड़ी में पैसे गए?</string>
+    <string name="helpline_body">तुरंत 1930 पर कॉल करें (नेशनल साइबर क्राइम हेल्पलाइन) या cybercrime.gov.in पर शिकायत करें। जितनी जल्दी कॉल करेंगे, पैसे रोकने की उतनी ज़्यादा संभावना है।</string>
+    <string name="helpline_call">1930 पर कॉल करें</string>
+    <string name="helpline_report">ऑनलाइन शिकायत</string>
+    <string name="tip_kyc_title">नकली KYC मैसेज</string>
+    <string name="tip_kyc_summary">“आपका खाता आज बंद हो जाएगा। अभी KYC अपडेट करें” + एक लिंक।</string>
+    <string name="tip_arrest_title">“डिजिटल अरेस्ट” कॉल</string>
+    <string name="tip_arrest_summary">कॉल करने वाले पुलिस, CBI, कस्टम्स या TRAI बनकर कहते हैं कि आप गिरफ़्तार हैं।</string>
+    <string name="tip_upi_title">UPI कलेक्ट रिक्वेस्ट</string>
+    <string name="tip_upi_summary">कोई “रिक्वेस्ट” भेजकर कहता है कि PIN डालने पर आपको पैसे मिलेंगे।</string>
+    <string name="tip_delivery_title">नकली डिलीवरी SMS</string>
+    <string name="tip_delivery_summary">“आपका पार्सल रुका है। पता अपडेट करें और ₹25 दें” + एक लिंक।</string>
+    <string name="tip_screen_title">स्क्रीन-शेयरिंग धोखाधड़ी</string>
+    <string name="tip_screen_summary">नकली कस्टमर केयर आपसे AnyDesk, TeamViewer या ऐसा कोई ऐप डलवाता है।</string>
+    <string name="tip_otp_title">OTP या PIN कभी न बताएं</string>
+    <string name="tip_otp_summary">OTP आपके बैंक खाते की चाबी जैसा है।</string>
+    <string name="tip_helpline_title">नकली कस्टमर केयर नंबर</string>
+    <string name="tip_helpline_summary">सर्च या सोशल मीडिया पर मिले नंबर नकली हो सकते हैं।</string>
+    <string name="onboarding_1_title">PhoneGuard में आपका स्वागत है</string>
+    <string name="onboarding_1_body">एक टैप में खतरनाक ऐप्स, असुरक्षित सेटिंग्स और धोखाधड़ी वाले लिंक पहचानें।</string>
+    <string name="onboarding_2_title">आसान सलाह, कोई मुश्किल शब्द नहीं</string>
+    <string name="onboarding_2_body">हम हर समस्या आसान शब्दों में समझाते हैं और उसे ठीक करने के लिए सीधे सही सेटिंग पर ले जाते हैं।</string>
+    <string name="onboarding_3_title">आपका डेटा आपके फ़ोन पर ही रहता है</string>
+    <string name="onboarding_3_body">सभी स्कैन आपके फ़ोन पर ही होते हैं। सिर्फ़ वही लिंक Google Safe Browsing को भेजे जाते हैं जिन्हें आप जांचना चुनते हैं।</string>
+    <string name="onboarding_page_of">पेज %1$d / %2$d</string>
+    <string name="permissions_title">कुछ अनुमतियां</string>
+    <string name="permissions_subtitle">हम सिर्फ़ ज़रूरी अनुमतियां मांगते हैं और वजह बताते हैं। आप इन्हें कभी भी सेटिंग्स में बदल सकते हैं।</string>
+    <string name="permission_apps_title">आपके ऐप्स देखना</string>
+    <string name="permission_apps_body">खतरनाक ऐप्स ढूंढने के लिए। आपके ऐप्स की लिस्ट कभी आपके फ़ोन से बाहर नहीं जाती।</string>
+    <string name="permission_notifications_title">आपको अलर्ट भेजना</string>
+    <string name="permission_notifications_body">ताकि कोई नया खतरनाक ऐप आने पर या रोज़ के स्कैन में समस्या मिलने पर हम आपको बता सकें।</string>
+    <string name="permission_location_title">Wi-Fi सुरक्षा जांचना</string>
+    <string name="permission_camera_title">QR कोड स्कैन करना</string>
+    <string name="permission_camera_body">हम कैमरा की अनुमति तभी मांगेंगे जब आप पहली बार QR कोड स्कैन करेंगे।</string>
+    <string name="permission_status_always">शामिल है</string>
+    <string name="permission_status_allowed">अनुमति मिली</string>
+    <string name="permission_status_later">ज़रूरत पड़ने पर पूछेंगे</string>
+    <string name="notification_channel_name">सुरक्षा अलर्ट</string>
+    <string name="notification_channel_description">नए खतरनाक ऐप्स और सेटिंग्स की चेतावनी</string>
+    <string name="notification_new_risks_title">PhoneGuard को नए ख़तरे मिले</string>
+    <string name="notification_new_risks_text">नए सुरक्षा ख़तरे मिले: %1$d। ठीक करने का तरीका देखने के लिए टैप करें।</string>
+    <string name="notification_new_risks_with_app">नए सुरक्षा ख़तरे मिले: %1$d, जिनमें %2$s भी है। ठीक करने का तरीका देखने के लिए टैप करें।</string>
+    <string name="notification_new_app_title">नया ऐप खतरनाक हो सकता है: %1$s</string>
+    <string name="notification_new_app_text">वजह और क्या करना है, यह देखने के लिए टैप करें।</string>
+    <string-array name="quick_tips">
+        <item>अपना OTP कभी किसी को न बताएं, “बैंक कर्मचारी” को भी नहीं।</item>
+        <item>पैसे पाने के लिए कभी UPI PIN की ज़रूरत नहीं होती।</item>
+        <item>पुलिस कभी वीडियो कॉल पर किसी को गिरफ़्तार नहीं करती।</item>
+        <item>WhatsApp पर APK फ़ाइल के रूप में भेजे गए ऐप्स न डालें।</item>
+        <item>बैंक कभी SMS लिंक से KYC अपडेट करने को नहीं कहते।</item>
+        <item>धोखाधड़ी हुई? तुरंत 1930 पर कॉल करें।</item>
+    </string-array>
+    <string-array name="wifi_tips">
+        <item>पब्लिक Wi-Fi (स्टेशन, कैफ़े, होटल) पर बैंकिंग और UPI न करें। मोबाइल डेटा इस्तेमाल करें।</item>
+        <item>Wi-Fi से जुड़ते ही अपने-आप खुलने वाले पेज पर कभी OTP या पासवर्ड न डालें।</item>
+        <item>खुले नेटवर्क से अपने-आप जुड़ने की सेटिंग बंद रखें।</item>
+        <item>जो Wi-Fi नेटवर्क अब इस्तेमाल नहीं करते, उन्हें फ़ोन से हटा दें।</item>
+    </string-array>
+    <string-array name="tip_kyc_steps">
+        <item>बैंक कभी SMS या WhatsApp लिंक से KYC अपडेट करने को नहीं कहते।</item>
+        <item>मैसेज में दिया लिंक न खोलें और नंबर पर कॉल न करें।</item>
+        <item>KYC सिर्फ़ अपनी ब्रांच में या बैंक के असली ऐप में अपडेट करें।</item>
+        <item>OTP, PIN, CVV या कार्ड नंबर कभी न बताएं।</item>
+    </string-array>
+    <string-array name="tip_arrest_steps">
+        <item>भारतीय कानून में “डिजिटल अरेस्ट” जैसी कोई चीज़ नहीं है।</item>
+        <item>असली पुलिस कभी वीडियो कॉल पर पूछताछ नहीं करती और “नाम साफ़ करने” के लिए पैसे नहीं मांगती।</item>
+        <item>कॉल काट दें। डर की वजह से कॉल पर बने न रहें।</item>
+        <item>उस नंबर की शिकायत 1930 या cybercrime.gov.in पर करें।</item>
+    </string-array>
+    <string-array name="tip_upi_steps">
+        <item>UPI PIN सिर्फ़ पैसे भेजने के लिए है, पाने के लिए कभी नहीं।</item>
+        <item>अनजान लोगों की कलेक्ट रिक्वेस्ट ठुकरा दें।</item>
+        <item>PIN डालने से पहले स्क्रीन पढ़ें: वहां “पेमेंट” लिखा होता है, “पाना” नहीं।</item>
+        <item>QR कोड स्कैन करना भी सिर्फ़ पैसे देने के लिए होता है।</item>
+    </string-array>
+    <string-array name="tip_delivery_steps">
+        <item>पार्सल सिर्फ़ शॉपिंग ऐप या कूरियर की असली वेबसाइट पर ट्रैक करें।</item>
+        <item>लिंक से छोटी “रीडिलीवरी” फ़ीस न भरें।</item>
+        <item>इंडिया पोस्ट और कूरियर SMS से कार्ड की जानकारी नहीं मांगते।</item>
+        <item>मैसेज को PhoneGuard में पेस्ट करके जांचें।</item>
+    </string-array>
+    <string-array name="tip_screen_steps">
+        <item>किसी कॉल करने वाले के कहने पर AnyDesk, TeamViewer QuickSupport या AirDroid कभी न डालें।</item>
+        <item>इन ऐप्स से दूसरा व्यक्ति आपके OTP देख सकता है और आपका फ़ोन चला सकता है।</item>
+        <item>अगर डाल चुके हैं, तो इसे हटाएं और अपने बैंकिंग पासवर्ड बदलें।</item>
+        <item>असली बैंकों को कभी आपकी स्क्रीन देखने की ज़रूरत नहीं होती।</item>
+    </string-array>
+    <string-array name="tip_otp_steps">
+        <item>कोई भी असली बैंक, कंपनी या सरकारी दफ़्तर कभी आपका OTP नहीं मांगेगा।</item>
+        <item>OTP मैसेज पढ़ें: उसमें लिखा होता है कि OTP किस काम के लिए है।</item>
+        <item>अगर कोई दबाव डाल रहा है, तो कॉल काटें और ख़ुद अपने बैंक को कॉल करें।</item>
+    </string-array>
+    <string-array name="tip_helpline_steps">
+        <item>अपने कार्ड, पासबुक या असली ऐप में दिया नंबर ही इस्तेमाल करें।</item>
+        <item>Google सर्च, कमेंट या सोशल मीडिया पर मिले नंबरों पर भरोसा न करें।</item>
+        <item>असली कस्टमर केयर कभी ऐप डलवाने या OTP बताने को नहीं कहता।</item>
+    </string-array>
+</resources>

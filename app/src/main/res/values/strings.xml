@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- All user-visible text, in simple English. Keep translations in values-hi in sync. -->
+<resources>
+    <string name="app_name" translatable="false">PhoneGuard</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_history">History</string>
+    <string name="nav_tips">Tips</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_allow_camera">Allow camera</string>
+    <string name="action_allow_location">Allow location to check Wi-Fi</string>
+    <string name="action_back">Go back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_check">Check now</string>
+    <string name="action_check_again">Check again</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_details">Details</string>
+    <string name="action_get_started">Get started</string>
+    <string name="action_next">Next</string>
+    <string name="action_not_now">Not now</string>
+    <string name="action_open_settings">Open settings</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_remove_admin">Remove admin rights</string>
+    <string name="action_review_permissions">Review permissions</string>
+    <string name="action_scan_again">Scan again</string>
+    <string name="action_scan_qr">Scan QR</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_turn_off_accessibility">Turn off access</string>
+    <string name="action_uninstall">Uninstall</string>
+    <string name="action_wifi_settings">Wi-Fi settings</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_clear">Clear text</string>
+    <string name="cd_collapse">Show less</string>
+    <string name="cd_expand">Show more</string>
+    <string name="state_expanded">Expanded</string>
+    <string name="state_collapsed">Collapsed</string>
+    <string name="risk_safe">Safe</string>
+    <string name="risk_low">Low risk</string>
+    <string name="risk_medium">Medium risk</string>
+    <string name="risk_high">High risk</string>
+    <string name="group_high">Fix these now</string>
+    <string name="group_medium">Worth checking</string>
+    <string name="group_low">Minor things</string>
+    <string name="group_safe">All good</string>
+    <string name="grade_good">Good</string>
+    <string name="grade_fair">Okay</string>
+    <string name="grade_at_risk">At risk</string>
+    <string name="gauge_description">Security score %1$d out of 100. %2$s.</string>
+    <string name="gauge_no_score_description">No security score yet. Tap Scan now to check your phone.</string>
+    <string name="gauge_not_scanned">Not scanned yet</string>
+    <string name="gauge_out_of_100">out of 100</string>
+    <string name="scan_now">Scan now</string>
+    <string name="scanning">Scanning…</string>
+    <string name="scan_title">Scan</string>
+    <string name="scan_failed">The scan could not finish. Please try again.</string>
+    <string name="scan_idle_title">Let’s check your phone</string>
+    <string name="scan_idle_body">We will look at your apps, settings and Wi-Fi. It takes a few seconds and everything stays on your phone.</string>
+    <string name="stage_apps">Checking apps…</string>
+    <string name="stage_apps_count">Checking apps… %1$d/%2$d</string>
+    <string name="stage_device">Checking device settings…</string>
+    <string name="stage_network">Checking Wi-Fi…</string>
+    <string name="stage_scoring">Working out your score…</string>
+    <string name="results_summary">%1$d apps checked · %2$d risky apps · %3$d settings to fix</string>
+    <string name="results_show_safe">Show %1$d safe items</string>
+    <string name="results_hide_safe">Hide safe items</string>
+    <string name="results_nothing_here">Nothing here. Try another filter.</string>
+    <string name="filter_all">All</string>
+    <string name="filter_with_count">%1$s (%2$d)</string>
+    <string name="home_tagline">Your phone’s safety, in one tap</string>
+    <string name="home_status_first_scan">Tap Scan now to check your phone</string>
+    <string name="home_status_all_good">Great! No problems found.</string>
+    <string name="home_status_problems">%1$d things need your attention</string>
+    <string name="home_last_scan">Last scan: %1$s</string>
+    <string name="home_watch_live">Watch the scan</string>
+    <string name="home_see_results">See results</string>
+    <string name="home_breakdown_title">Your safety at a glance</string>
+    <string name="home_apps_value">%1$d risky</string>
+    <string name="home_apps_caption">of %1$d apps checked</string>
+    <string name="home_not_checked">Not checked yet</string>
+    <string name="home_device_ok">All good</string>
+    <string name="home_device_issues">%1$d to fix</string>
+    <string name="home_device_caption">Lock, updates and settings</string>
+    <string name="home_score_value">Score %1$d</string>
+    <string name="home_network_mobile">Not on Wi-Fi</string>
+    <string name="home_network_unsafe">Unsafe Wi-Fi</string>
+    <string name="home_network_secure">Secure</string>
+    <string name="home_network_unknown">Unknown</string>
+    <string name="home_network_caption">Tap to check your Wi-Fi</string>
+    <string name="home_links_value">%1$d checked</string>
+    <string name="home_links_caption_bad">%1$d dangerous this week</string>
+    <string name="home_links_caption_ok">Check links before you tap</string>
+    <string name="home_tip_title">Safety tip of the day</string>
+    <string name="category_apps">Apps</string>
+    <string name="category_device">Device</string>
+    <string name="category_network">Network</string>
+    <string name="category_links">Links</string>
+    <string name="reason_remote_control">Scam alert: this app lets another person see and control your screen. Scammers ask people to install it.</string>
+    <string name="reason_sideloaded_sensitive">Installed from outside an app store AND can read private things like SMS or your screen. This is how fake banking apps steal OTPs.</string>
+    <string name="reason_sideloaded">Installed from outside the Play Store (for example an APK file from WhatsApp or a website).</string>
+    <string name="reason_accessibility">Can see and tap everything on your screen (Accessibility).</string>
+    <string name="reason_device_admin">Has device admin rights, which can make it hard to remove.</string>
+    <string name="reason_sms">Can read your SMS, including bank OTPs.</string>
+    <string name="reason_call_log">Can see who you call and who calls you.</string>
+    <string name="reason_notifications">Can read all your notifications, including OTPs.</string>
+    <string name="reason_overlay">Can draw over other apps (used to show fake login screens).</string>
+    <string name="reason_install_apps">Can install other apps.</string>
+    <string name="reason_microphone">Can use your microphone.</string>
+    <string name="reason_camera">Can use your camera.</string>
+    <string name="reason_location">Can see your location.</string>
+    <string name="app_no_risky_permissions">No sensitive permissions found.</string>
+    <string name="advice_no_action">This app looks fine. Nothing to do.</string>
+    <string name="advice_review_permissions">If the app does not need these permissions to work, turn them off in Settings.</string>
+    <string name="advice_turn_off_accessibility">Turn off Accessibility for this app unless you set it up yourself for a clear reason.</string>
+    <string name="advice_remove_device_admin">Remove its device admin rights, then uninstall it if you do not use it.</string>
+    <string name="advice_uninstall_if_unknown">If you do not know this app or did not mean to install it, uninstall it.</string>
+    <string name="advice_uninstall_now">Uninstall this app now. If someone on a call asked you to install it, it is a scam. Do not share any code with them.</string>
+    <string name="perm_sms">SMS</string>
+    <string name="perm_sms_desc">Read and send text messages, including OTPs</string>
+    <string name="perm_call_log">Call history</string>
+    <string name="perm_call_log_desc">See your incoming and outgoing calls</string>
+    <string name="perm_accessibility">Accessibility</string>
+    <string name="perm_accessibility_desc">See your screen and tap buttons for you</string>
+    <string name="perm_device_admin">Device admin</string>
+    <string name="perm_device_admin_desc">Lock or wipe the phone and block uninstall</string>
+    <string name="perm_notification_access">Notification access</string>
+    <string name="perm_notification_access_desc">Read every notification, including OTPs</string>
+    <string name="perm_overlay">Display over other apps</string>
+    <string name="perm_overlay_desc">Show windows on top of other apps</string>
+    <string name="perm_install_packages">Install other apps</string>
+    <string name="perm_install_packages_desc">Ask to install apps from outside the Play Store</string>
+    <string name="perm_microphone">Microphone</string>
+    <string name="perm_microphone_desc">Record audio</string>
+    <string name="perm_camera">Camera</string>
+    <string name="perm_camera_desc">Take photos and videos</string>
+    <string name="perm_location">Location</string>
+    <string name="perm_location_desc">Know where you are</string>
+    <string name="source_play_store">Google Play Store</string>
+    <string name="source_galaxy_store">Samsung Galaxy Store</string>
+    <string name="source_amazon">Amazon Appstore</string>
+    <string name="source_other_app">Another app (APK file)</string>
+    <string name="source_unknown">Unknown source</string>
+    <string name="app_detail_title">App details</string>
+    <string name="app_detail_source">Installed from: %1$s</string>
+    <string name="app_detail_version">Version %1$s</string>
+    <string name="app_detail_installed_on">Installed on %1$s</string>
+    <string name="app_detail_found">What we found</string>
+    <string name="app_detail_what_to_do">What to do</string>
+    <string name="app_detail_permissions">Sensitive permissions</string>
+    <string name="app_detail_removed_title">App removed</string>
+    <string name="app_detail_removed_body">This app is no longer on your phone. Well done!</string>
+    <string name="scam_warning_title">Scam warning</string>
+    <string name="scam_warning_body">Scammers pretending to be bank staff, police or customer care ask people to install this app. Then they watch your screen and steal your OTPs and money. If someone asked you to install it, uninstall it now and call 1930.</string>
+    <string name="device_screen_lock">Screen lock</string>
+    <string name="device_screen_lock_ok">Your phone has a screen lock.</string>
+    <string name="device_screen_lock_issue">Your phone has no PIN, pattern or password.</string>
+    <string name="device_screen_lock_why">Without a lock, anyone who picks up your phone can open your UPI and banking apps.</string>
+    <string name="device_developer_options">Developer options</string>
+    <string name="device_developer_options_ok">Developer options are off.</string>
+    <string name="device_developer_options_issue">Developer options are turned on.</string>
+    <string name="device_developer_options_why">These are tools for app makers. Most people never need them, and scammers sometimes ask people to turn them on.</string>
+    <string name="device_usb_debugging">USB debugging</string>
+    <string name="device_usb_debugging_ok">USB debugging is off.</string>
+    <string name="device_usb_debugging_issue">USB debugging is turned on.</string>
+    <string name="device_usb_debugging_why">A computer connected by cable could install apps or copy your data. Turn it off when you are not using it.</string>
+    <string name="device_unknown_sources">Install unknown apps</string>
+    <string name="device_unknown_sources_ok">No app can install other apps.</string>
+    <string name="device_unknown_sources_issue">Some apps may be allowed to install other apps.</string>
+    <string name="device_unknown_sources_why">Fake apps often arrive as APK files on WhatsApp or SMS. Allow this only for apps you trust, and turn it off when done.</string>
+    <string name="device_affected_apps">Apps: %1$s</string>
+    <string name="device_security_patch">Security update</string>
+    <string name="device_security_patch_ok">Your phone has a recent security update.</string>
+    <string name="device_security_patch_issue">Your phone’s security update is old.</string>
+    <string name="device_security_patch_why">Updates fix holes that hackers use. Install updates when your phone offers them.</string>
+    <string name="device_patch_age">Last update: %1$s (%2$d days ago)</string>
+    <string name="device_play_protect">Google Play Protect</string>
+    <string name="device_play_protect_info">Make sure Play Protect is turned on.</string>
+    <string name="device_play_protect_why">Play Protect checks your apps for harmful behaviour. Android does not let us see if it is on, so please check it once.</string>
+    <string name="fix_set_screen_lock">Set a screen lock</string>
+    <string name="fix_turn_off_developer">Turn off</string>
+    <string name="fix_turn_off_usb">Turn off</string>
+    <string name="fix_review_installers">Review apps</string>
+    <string name="fix_check_updates">Check for updates</string>
+    <string name="fix_open_play_protect">Open Play Protect</string>
+    <string name="wifi_title">Wi-Fi safety</string>
+    <string name="wifi_named">Wi-Fi: %1$s</string>
+    <string name="wifi_this_network">Your Wi-Fi network</string>
+    <string name="wifi_name_hidden">Hidden by Android</string>
+    <string name="wifi_security_open">Open (no password)</string>
+    <string name="wifi_security_wep">WEP (old and weak)</string>
+    <string name="wifi_security_wpa">WPA2 (password protected)</string>
+    <string name="wifi_security_wpa3">WPA3 (strong)</string>
+    <string name="wifi_security_enterprise">Enterprise (office network)</string>
+    <string name="wifi_security_enhanced_open">Enhanced Open (encrypted)</string>
+    <string name="wifi_security_unknown">Unknown</string>
+    <string name="wifi_not_connected_title">You are not on Wi-Fi</string>
+    <string name="wifi_not_connected_body">Good: mobile data is safer than public Wi-Fi for banking and UPI.</string>
+    <string name="wifi_unsafe_title">This Wi-Fi is not safe</string>
+    <string name="wifi_unsafe_body">This network has no password or uses old WEP security. People nearby could see what you do. Do not use banking or UPI apps on it.</string>
+    <string name="wifi_safe_title">This Wi-Fi is protected</string>
+    <string name="wifi_safe_body">It uses %1$s security. Still, avoid banking on Wi-Fi you do not own.</string>
+    <string name="wifi_unknown_title">We could not read this network’s security</string>
+    <string name="wifi_unknown_body">If this is a public Wi-Fi (station, café, hotel), avoid banking and UPI on it.</string>
+    <string name="wifi_location_needed_title">We need one permission to check this Wi-Fi</string>
+    <string name="wifi_location_title">Why location?</string>
+    <string name="wifi_location_body">On your Android version, apps can only see if a Wi-Fi has a password when they have location access. We use it only for this check and never track where you are.</string>
+    <string name="wifi_detail_name">Network name</string>
+    <string name="wifi_detail_security">Security</string>
+    <string name="wifi_detail_nearby_open">Open networks nearby</string>
+    <string name="wifi_tips_title">Stay safe on public Wi-Fi</string>
+    <string name="tools_title">Tools</string>
+    <string name="tool_link_title">Check a link</string>
+    <string name="tool_link_body">Paste a link before you open it</string>
+    <string name="tool_qr_title">Scan a QR code</string>
+    <string name="tool_qr_body">See where a QR code really goes</string>
+    <string name="tool_message_title">Check an SMS or message</string>
+    <string name="tool_message_body">Paste or share a message to spot scams</string>
+    <string name="tool_wifi_title">Wi-Fi safety check</string>
+    <string name="tool_wifi_body">Find out if your Wi-Fi is safe for payments</string>
+    <string name="privacy_note">Scans happen on your phone. Only a link you choose to check is sent to Google Safe Browsing. Your messages never leave your phone.</string>
+    <string name="link_check_title">Check a link or message</string>
+    <string name="link_check_intro">Got a link, QR code or SMS you are not sure about? Check it here before you tap.</string>
+    <string name="link_check_hint">Paste a link or message</string>
+    <string name="link_check_placeholder">e.g. https://example.com or the full SMS</string>
+    <string name="link_checking">Checking…</string>
+    <string name="link_check_failed">Something went wrong. Please try again.</string>
+    <string name="link_no_link_title">No link found</string>
+    <string name="link_no_link_body">We did not find a link or scam signs in this text. Paste the full link, starting with https://</string>
+    <string name="link_scam_signs">Scam signs in this message</string>
+    <string name="link_links_found">Links found</string>
+    <string name="link_no_flags">No warning signs found in this link.</string>
+    <string name="verdict_safe_title">Looks safe</string>
+    <string name="verdict_safe_body">We found no warning signs. Still, never share OTPs or PINs on any website.</string>
+    <string name="verdict_low_title">Probably fine</string>
+    <string name="verdict_low_body">We found small concerns. Open it only if you trust the sender.</string>
+    <string name="verdict_medium_title">Be careful</string>
+    <string name="verdict_medium_body">This has warning signs. Do not enter passwords, OTPs or card details.</string>
+    <string name="verdict_high_title">Dangerous – do not open</string>
+    <string name="verdict_high_body">This looks like a scam. Do not open the link, do not pay, and delete the message.</string>
+    <string name="flag_invalid">This does not look like a proper link.</string>
+    <string name="flag_ip_address">Uses numbers instead of a website name. Real banks never do this.</string>
+    <string name="flag_lookalike">Looks like a bank or payment website, but it is not the real one.</string>
+    <string name="flag_lookalike_brand">Pretends to be %1$s, but it is not their real website.</string>
+    <string name="flag_userinfo">Uses a trick (an @ sign) to hide the real website.</string>
+    <string name="flag_shortener">A short link that hides where it really goes.</string>
+    <string name="flag_not_https">Not secure (no https). Anything you type could be seen by others.</string>
+    <string name="flag_punycode">Uses look-alike letters to copy a real website name.</string>
+    <string name="flag_upi">This is a UPI payment request. Scanning a QR is only for PAYING money, never for receiving it.</string>
+    <string name="flag_upi_payee">UPI payment to: %1$s. Scanning a QR is only for PAYING money, never for receiving it.</string>
+    <string name="flag_unsupported_scheme">This is not a normal web link.</string>
+    <string name="flag_suspicious_tld">Uses a cheap web address ending that scam sites often use.</string>
+    <string name="flag_many_subdomains">Has a very long, confusing address.</string>
+    <string name="flag_unusual_port">Uses an unusual technical setting (port number).</string>
+    <string name="flag_scam_keywords">Contains words scammers use, like KYC, reward or verify.</string>
+    <string name="signal_fake_kyc">Fake KYC: banks never ask you to update KYC through an SMS link.</string>
+    <string name="signal_digital_arrest">“Digital arrest” threat: police, CBI or customs never arrest anyone over a call.</string>
+    <string name="signal_upi_collect">UPI trick: you never need to enter your UPI PIN to receive money.</string>
+    <string name="signal_fake_delivery">Fake delivery message: check your order only in the official app.</string>
+    <string name="signal_prize">Prize, refund or cashback offer that sounds too good to be true.</string>
+    <string name="signal_otp">Asks you to share an OTP. Never share an OTP with anyone.</string>
+    <string name="signal_electricity">Electricity cut threat: pay bills only in your official app or website.</string>
+    <string name="signal_remote_access">Asks you to install a screen-sharing app like AnyDesk or TeamViewer.</string>
+    <string name="signal_urgent">Tries to rush or scare you (“immediately”, “blocked today”).</string>
+    <string name="sb_no_threat">Google Safe Browsing: no known threats.</string>
+    <string name="sb_threat">Google Safe Browsing: reported as dangerous!</string>
+    <string name="sb_not_configured">Google Safe Browsing check is not set up. On-device checks were used.</string>
+    <string name="sb_offline">No internet, so Google Safe Browsing was skipped. On-device checks were used.</string>
+    <string name="sb_error">Google Safe Browsing did not respond. On-device checks were used.</string>
+    <string name="sb_skipped">Not a web link, so it was checked on your phone only.</string>
+    <string name="qr_title">Scan a QR code</string>
+    <string name="qr_instruction">Point your camera at a QR code</string>
+    <string name="qr_permission_title">Camera needed</string>
+    <string name="qr_permission_body">We use the camera only to read the QR code. No photos are saved or sent anywhere.</string>
+    <string name="qr_permission_denied_body">Camera access is turned off. Open settings and allow the camera to scan QR codes.</string>
+    <string name="qr_camera_error_title">Camera not available</string>
+    <string name="qr_camera_error_body">We could not start the camera. Close other camera apps and try again.</string>
+    <string name="history_title">History</string>
+    <string name="history_empty_title">No scans yet</string>
+    <string name="history_empty_body">Your scans will appear here so you can see your score improve over time.</string>
+    <string name="history_trend_title">Score over time</string>
+    <string name="history_trend_description">Chart of your last %1$d scores. Latest score %2$d.</string>
+    <string name="history_stat_latest">Latest</string>
+    <string name="history_stat_best">Best</string>
+    <string name="history_stat_change">Change</string>
+    <string name="history_past_scans">Past scans</string>
+    <string name="history_row_details">%1$s · %2$s</string>
+    <string name="history_row_counts">%1$d risky apps · %2$d settings to fix</string>
+    <string name="history_clear_title">Delete history?</string>
+    <string name="history_clear_body">This removes all saved scans from this phone. It cannot be undone.</string>
+    <string name="trigger_manual">You scanned</string>
+    <string name="trigger_scheduled">Daily scan</string>
+    <string name="trigger_new_app">New app</string>
+    <string name="tips_title">Safety tips</string>
+    <string name="helpline_title">Lost money to a scam?</string>
+    <string name="helpline_body">Call 1930 right away (National Cyber Crime Helpline) or report at cybercrime.gov.in. The sooner you call, the better the chance to stop the money.</string>
+    <string name="helpline_call">Call 1930</string>
+    <string name="helpline_report">Report online</string>
+    <string name="tip_kyc_title">Fake KYC messages</string>
+    <string name="tip_kyc_summary">“Your account will be blocked today. Update KYC now” + a link.</string>
+    <string name="tip_arrest_title">“Digital arrest” calls</string>
+    <string name="tip_arrest_summary">Callers pretend to be police, CBI, customs or TRAI and say you are under arrest.</string>
+    <string name="tip_upi_title">UPI collect requests</string>
+    <string name="tip_upi_summary">Someone sends a “request” and says you will receive money if you enter your PIN.</string>
+    <string name="tip_delivery_title">Fake delivery SMS</string>
+    <string name="tip_delivery_summary">“Your parcel is on hold. Update your address and pay ₹25” + a link.</string>
+    <string name="tip_screen_title">Screen-sharing scams</string>
+    <string name="tip_screen_summary">Fake customer care asks you to install AnyDesk, TeamViewer or a similar app.</string>
+    <string name="tip_otp_title">Never share OTP or PIN</string>
+    <string name="tip_otp_summary">An OTP is like the key to your bank account.</string>
+    <string name="tip_helpline_title">Fake customer care numbers</string>
+    <string name="tip_helpline_summary">Numbers found on search results or social media can be fake.</string>
+    <string name="onboarding_1_title">Welcome to PhoneGuard</string>
+    <string name="onboarding_1_body">Find risky apps, unsafe settings and scam links with one tap.</string>
+    <string name="onboarding_2_title">Simple advice, no jargon</string>
+    <string name="onboarding_2_body">We explain every problem in plain words and take you straight to the right setting to fix it.</string>
+    <string name="onboarding_3_title">Your data stays on your phone</string>
+    <string name="onboarding_3_body">All scans happen on your phone. Only links you choose to check are sent to Google Safe Browsing.</string>
+    <string name="onboarding_page_of">Page %1$d of %2$d</string>
+    <string name="permissions_title">A few permissions</string>
+    <string name="permissions_subtitle">We only ask for what we need, and explain why. You can change these at any time in Settings.</string>
+    <string name="permission_apps_title">See your installed apps</string>
+    <string name="permission_apps_body">To find risky apps. The list of your apps never leaves your phone.</string>
+    <string name="permission_notifications_title">Send you alerts</string>
+    <string name="permission_notifications_body">So we can warn you when a new risky app is installed or the daily scan finds a problem.</string>
+    <string name="permission_location_title">Check Wi-Fi safety</string>
+    <string name="permission_camera_title">Scan QR codes</string>
+    <string name="permission_camera_body">We will ask for the camera only when you first scan a QR code.</string>
+    <string name="permission_status_always">Included</string>
+    <string name="permission_status_allowed">Allowed</string>
+    <string name="permission_status_later">Asked when needed</string>
+    <string name="notification_channel_name">Security alerts</string>
+    <string name="notification_channel_description">Warnings about new risky apps and settings</string>
+    <string name="notification_new_risks_title">PhoneGuard found new risks</string>
+    <string name="notification_new_risks_text">New safety risks found: %1$d. Tap to see how to fix them.</string>
+    <string name="notification_new_risks_with_app">New safety risks found: %1$d, including %2$s. Tap to see how to fix them.</string>
+    <string name="notification_new_app_title">New app may be risky: %1$s</string>
+    <string name="notification_new_app_text">Tap to see why and what to do.</string>
+    <string-array name="quick_tips">
+        <item>Never share your OTP, not even with “bank staff”.</item>
+        <item>You never need your UPI PIN to receive money.</item>
+        <item>Police never arrest anyone over a video call.</item>
+        <item>Do not install apps sent as APK files on WhatsApp.</item>
+        <item>Banks never ask for KYC updates through SMS links.</item>
+        <item>Got scammed? Call 1930 immediately.</item>
+    </string-array>
+    <string-array name="wifi_tips">
+        <item>Avoid banking and UPI on public Wi-Fi (stations, cafés, hotels). Use mobile data instead.</item>
+        <item>Never enter OTPs or passwords on a page that opens by itself when you join a Wi-Fi.</item>
+        <item>Turn off auto-connect to open networks.</item>
+        <item>Forget Wi-Fi networks you no longer use.</item>
+    </string-array>
+    <string-array name="tip_kyc_steps">
+        <item>Banks never ask you to update KYC through an SMS or WhatsApp link.</item>
+        <item>Do not open the link or call the number in the message.</item>
+        <item>Update KYC only at your branch or in your bank’s official app.</item>
+        <item>Never share OTP, PIN, CVV or card numbers.</item>
+    </string-array>
+    <string-array name="tip_arrest_steps">
+        <item>There is no such thing as a “digital arrest” in Indian law.</item>
+        <item>Real police never question you over video call or ask for money to “clear your name”.</item>
+        <item>Hang up. Do not stay on the call because you are scared.</item>
+        <item>Report the number at 1930 or cybercrime.gov.in.</item>
+    </string-array>
+    <string-array name="tip_upi_steps">
+        <item>Your UPI PIN is only for SENDING money, never for receiving it.</item>
+        <item>Decline collect requests from people you do not know.</item>
+        <item>Read the screen before entering your PIN: it says “pay”, not “receive”.</item>
+        <item>Scanning a QR code is also only for paying.</item>
+    </string-array>
+    <string-array name="tip_delivery_steps">
+        <item>Track parcels only in the shopping app or the official courier website.</item>
+        <item>Do not pay small “redelivery” fees through links.</item>
+        <item>India Post and couriers do not ask for card details by SMS.</item>
+        <item>Paste the message into PhoneGuard to check it.</item>
+    </string-array>
+    <string-array name="tip_screen_steps">
+        <item>Never install AnyDesk, TeamViewer QuickSupport or AirDroid because a caller asked you to.</item>
+        <item>These apps let the other person see your OTPs and control your phone.</item>
+        <item>If you already installed one, uninstall it and change your banking passwords.</item>
+        <item>Real banks never need to see your screen.</item>
+    </string-array>
+    <string-array name="tip_otp_steps">
+        <item>No real bank, company or government office will ever ask for your OTP.</item>
+        <item>Read the OTP message: it tells you what the OTP is for.</item>
+        <item>If someone is pressuring you, hang up and call your bank yourself.</item>
+    </string-array>
+    <string-array name="tip_helpline_steps">
+        <item>Use the number printed on your card, passbook or in the official app.</item>
+        <item>Do not trust numbers from Google search results, comments or social media.</item>
+        <item>Real customer care never asks you to install apps or share OTPs.</item>
+    </string-array>
+</resources>
